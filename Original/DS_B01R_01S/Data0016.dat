@@ -1,0 +1,41 @@
+01.02F7A6B9CE7E2A4F53AE27C7A36D0B7BD00000016000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000<profileInfo>
+  <header>
+    <general>
+      <field name="ProfileType"   type="text" comm="Brightfield or Fluorescence profile" />
+      <field name="ProfileName"   type="text" comm="Name of the prifile" />
+    </general>
+    <specific>
+      <field name="BrightfieldCompressionMode"         type="text" comm="Compression mode of brightfield scanned pictures"             />
+      <field name="BrightfieldJPGQuality"              type="num"  comm="Quality of brightfield scanned JPG pictures"                  />
+      <field name="PreviewType"                        type="text" comm="Preview type"                             />
+      <field name="UseCoverslipCut"                    type="bool" comm="Use coverslip cut"                        />
+      <field name="CoverslipLeft"                      type="num"  comm="Coverslip left"                           />
+      <field name="CoverslipTop"                       type="num"  comm="Coverslip top"                            />
+      <field name="CoverslipRight"                     type="num"  comm="Coverslip right"                          />
+      <field name="CoverslipBottom"                    type="num"  comm="Coverslip bottom"                         />
+      <field name="LimitingTheRange"                   type="bool" comm="Limiting the range"                       />
+      <field name="LowerLimit"                         type="num"  comm="Lower limit"                              />
+      <field name="UpperLimit"                         type="num"  comm="Upper limit"                              />
+      <field name="FineFocusFrequency"                 type="num"  comm="Fine focus frequency"                     />
+      <field name="CoarseFocusFrequency"               type="num"  comm="Coarse focus frequency"                   />
+      <field name="ScanMapDilation"                    type="num"  comm="Scan map dilation"                        />
+      <field name="Stitching"                          type="bool" comm="Stitching"                                />
+      <field name="FocusQuality"                       type="bool" comm="Save focus quality"                       />
+      <field name="SavedCompensationImage"             type="bool" comm="Saved compensation image"                 />
+      <field name="OptovarPosition"                    type="num"  comm="Optovar position"                         />
+      <field name="OptovarName"                        type="text" comm="Optovar name"                             />
+      <field name="PreviewThresholdValue"              type="num"  comm="Preview threshold value"                  />
+      <field name="FillingHolesOnScanMap"              type="bool" comm="Filling holes on scanmap"                 />
+      <field name="ScanningAreaInsideTheMarker"        type="bool" comm="Scanning area inside the marker"          />
+      <field name="UseExtendedFocus"                   type="bool" comm="Use extended focus"                       />
+      <field name="ZLevelCount"                        type="num"  comm="Z level count"                            />
+      <field name="ZStepSize"                          type="num"  comm="Z step size"                              />
+      <field name="MarkerThreshold"                    type="num"  comm="Marker threshold value"                   />
+      <field name="IsDatabaseSelected"                 type="bool" comm="Is database selected"                     />
+      <field name="RemoveDirt"                         type="bool" comm="Remove dirt from scanmap"                 />
+      <field name="DirtSize"                           type="num"  comm="Dirt size"                                />
+      <field name="OptimizedSlideVisualization"        type="bool" comm="Optimized slide visualization"            />
+      <field name="StoredPreviewPath"                  type="text" comm="Stored preview path"                      />
+    </specific>
+  </header>
+</profileInfo>
