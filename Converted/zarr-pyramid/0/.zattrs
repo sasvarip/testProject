@@ -1,0 +1,130 @@
+{
+  "multiscales" : [ {
+    "metadata" : {
+      "method" : "loci.common.image.SimpleImageScaler",
+      "version" : "Bio-Formats 7.1.0"
+    },
+    "axes" : [ {
+      "name" : "t",
+      "type" : "time"
+    }, {
+      "name" : "c",
+      "type" : "channel"
+    }, {
+      "name" : "z",
+      "type" : "space"
+    }, {
+      "unit" : "micrometer",
+      "name" : "y",
+      "type" : "space"
+    }, {
+      "unit" : "micrometer",
+      "name" : "x",
+      "type" : "space"
+    } ],
+    "name" : "DS_B01R_01S",
+    "datasets" : [ {
+      "path" : "0",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.242647058823529, 0.242534722222222 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "1",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.485294117647058, 0.485069444444444 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "2",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.970588235294116, 0.970138888888888 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "3",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 1.941176470588232, 1.940277777777776 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "4",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 3.882352941176464, 3.880555555555552 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "5",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 7.764705882352928, 7.761111111111104 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "6",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 15.529411764705856, 15.522222222222208 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "7",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 31.05882352941171, 31.044444444444416 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "8",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 62.11764705882342, 62.08888888888883 ],
+        "type" : "scale"
+      } ]
+    } ],
+    "version" : "0.4"
+  } ],
+  "omero" : {
+    "channels" : [ {
+      "color" : "FF0000",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 0",
+      "window" : {
+        "min" : 0.0,
+        "max" : 255.0,
+        "start" : 0.0,
+        "end" : 255.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    }, {
+      "color" : "00FF00",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 1",
+      "window" : {
+        "min" : 0.0,
+        "max" : 255.0,
+        "start" : 0.0,
+        "end" : 255.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    }, {
+      "color" : "0000FF",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 2",
+      "window" : {
+        "min" : 0.0,
+        "max" : 255.0,
+        "start" : 0.0,
+        "end" : 255.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    } ],
+    "rdefs" : {
+      "defaultT" : 0,
+      "model" : "color",
+      "defaultZ" : 0
+    }
+  }
+}
